@@ -8,25 +8,52 @@
     <meta name="Keywords" content="Key Words" />
     <meta name="Description" content="Descritpion" />
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <h1>Logo text</h1>
-        <ul id="nav">
-          <li><a href="#">Nav Item 1</a></li>
-          <li><a href="#">Nav Item 2</a></li>
-        </ul>
-      </div>
-      <div id="sidebar">
+    <section id="wrapper">
+      <header>
+        <hgroup>
+          <h1><a href="#">Company Logo</a></h1>
+        </hgroup>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <section id="content">
+        <section id="items">
+          <article class="item">
+            <header>
+              <h1>Heading</h1>
+            </header>
+            <section>
+              content
+            </section>
+          </article>
+
+          <article class="item">
+            <header>
+              <h1>Heading</h1>
+            </header>
+            <section>
+              content
+            </section>
+          </article>
+
+        </section>
+      </section>
+      
+      <aside>
         sidebar
-      </div>
-      <div id="content">
-        content
-      </div>
-      <div id="footer">
-        footer
-      </div>  
-    </div>
+      </aside>
+      
+      <footer>
+        <p class="copy">Copyright &copy; 2010 &mdash; Jake Dahn</p>
+      </footer>
+      
+    </section>
   </body>
 </html>
