@@ -7,28 +7,36 @@
     <meta name="Robots" content="index,all" />
     <meta name="Keywords" content="Key Words" />
     <meta name="Description" content="Descritpion" />
-    <script src="js/jquery-1.6.1.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="js/application.js" type="text/javascript" charset="utf-8"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+    <script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="js/application.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="screen" title="bootstrap framework" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
   </head>
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <h1><a href="#">Logo text</a></h1>
-        <ul id="nav">
+    <div id="wrapper" class="container">
+      <header>
+        <h1><a class="brand" href="/">Project</a></h1>
+        <nav>
           <li><a href="#">Nav Item 1</a></li>
           <li><a href="#">Nav Item 2</a></li>
-        </ul>
+        </nav>
+      </header>
+      <div id="main_content" class="content">
+        <div class="hero-unit">
+          <h1>foo bar baz <small>with a subtitle</small></h1>
+        </div>
+        <div class="sidebar pull-left span4">
+          <div class="well">
+            sidebar content
+          </div>
+        </div>
+        <div class="content pull-left">
+          content
+        </div>
       </div>
-      <div id="sidebar">
-        sidebar
-      </div>
-      <div id="content">
-        content
-      </div>
-      <div id="footer">
-        footer
-      </div>  
+      <footer class="footer clearfix">
+        Footer Copy
+      </footer>
     </div>
   </body>
 </html>
